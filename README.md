@@ -44,7 +44,8 @@ Any move that cause the above will be ignored.
     - `python3 -m venv toyrobot-env`
 - Activate virtual environment
     - `source toyrobot-env/bin/activate`
-- pip install <path-to-downloaded-source>
+- Install source-code 
+    - `pip install <path-to-downloaded-source>`
 
 
 ## Usage
