@@ -1,5 +1,7 @@
 # Toy Robot Simulation
 
+[![Master Actions Status](https://github.com/rlupat/ToyRobotProject/actions/workflows/unit-tests/badge.svg)]
+
 ## Description 
 
 The application is a simulation of a toy robot moving on a square table top, of dimensions 5 units x 5 units. 
