@@ -41,13 +41,17 @@ Any move that cause the above will be ignored.
 
 - Clone this github repository
 - Setup virtual environment
-    - python3 -m venv toyrobot-env
+    - `python3 -m venv toyrobot-env`
 - Activate virtual environment
-    - source toyrobot-env/bin/activate
-- pip install <path-to-downloaded-source>
+    - `source toyrobot-env/bin/activate`
+- Install source-code 
+    - `pip install <path-to-downloaded-source>`
 
 
 ## Usage
 
-- Activate virtaul environment (as above)
-- python -m toyrobot.app -i <path-to-input-commands> 
+- Activate virtual environment `source toyrobot-env/bin/activate`
+- `python -m toyrobot.app -i <path-to-input-commands>`
+  
+
+
