@@ -1,0 +1,8 @@
+__pycache__
+venv
+.pytest_cache
+*.pyc
+.tox
+.coverage
+*egg-info
+build
