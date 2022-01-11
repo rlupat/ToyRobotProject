@@ -1,6 +1,6 @@
 # Toy Robot Simulation
 
-[![Master Actions Status](https://github.com/rlupat/ToyRobotProject/actions/workflows/Unit-Tests/badge.svg)] (https://github.com/rlupat/ToyRobotProject/actions)
+[![Status](https://github.com/rlupat/ToyRobotProject/workflows/Unit-Tests/badge.svg)](https://github.com/rlupat/ToyRobotProject/actions)
 
 ## Description 
 
