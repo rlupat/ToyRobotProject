@@ -19,7 +19,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements_test.txt
         pip install -e .
-    - name: Run unit tests with pytest
-      run: python -m pytest --import-mode=append .
-    - name: Code Coverage
-      uses: codecov/codecov-action@v1
+    - name: Run unit tests with pytest with codecov
+      run: python -m pytest --import-mode=append --cov=./ --cov-report=xml
+    - name: Upload Code Coverage
+      uses: codecov/codecov-action@v2
+
