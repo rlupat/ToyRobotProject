@@ -77,6 +77,10 @@ Python version 3.6 / 3.7 / 3.8 / 3.9.
 - Install source-code 
     - `pip install <path-to-downloaded-source>`
 
+### Option 3: Docker
+
+- Pull latest image from dockerhub
+  `docker pull rlupat/toyrobot`
 
 ## Usage
 
@@ -94,6 +98,10 @@ Example: `toyrobot -i ./resources/test1.txt`
 `python -m toyrobot.app -i <path-to-input-file>`
 
 Example: `python -m toyrobot.app -i ./resources/test1.txt`
+
+### Option 3: Docker
+
+`docker run -v <local-mount-dir-test-data>:/test_data rlupat/toyrobot -i test_data/test1.txt`
 
 ### Extended Usage Info
 

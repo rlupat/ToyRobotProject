@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="rlupat.toyrobot",
-    version="0.2.0",
+    version="0.2.1",
     description="ToyRobot Example Implementation",
     author="Richard Lupat",
     license="MIT",
