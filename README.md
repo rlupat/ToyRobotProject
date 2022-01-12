@@ -99,18 +99,20 @@ Example: `python -m toyrobot.app -i ./resources/test1.txt`
 
 ```shell
 
-usage: toyrobot [-h] -i INPUT [-x SIZEX] [-y SIZEY]
+usage: toyrobot [-h] -i INPUT [-x SIZEX] [-y SIZEY] [-d]
 
-Run Toy models Simulation
+Run Toy Robot Simulation
 
 optional arguments:
   -h, --help            show this help message and exit
   -i INPUT, --input INPUT
-                        file consisting of models movement commands
+                        file consisting of robot movement commands (required)
   -x SIZEX, --sizeX SIZEX
-                        dimension of tabletop
+                        dimension of tabletop [5]
   -y SIZEY, --sizeY SIZEY
-                        dimension of tabletop
+                        dimension of tabletop [5]
+  -d, --debug           turn on debugging [False]
+
 
 ```
   
