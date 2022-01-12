@@ -54,7 +54,20 @@ REPORT
 
 ## Installation
 
-### From source
+### Requirements
+
+Python version 3.6 / 3.7 / 3.8 / 3.9. 
+
+### Option 1: From PyPi
+
+- Setup virtual environment
+    - `python3 -m venv toyrobot-env`
+- Activate virtual environment
+    - `source toyrobot-env/bin/activate`
+- Install source-code 
+    - `pip install rlupat.toyrobot`
+
+### Option 2: From source
 
 - Clone this github repository
 - Setup virtual environment
@@ -81,6 +94,25 @@ Example: `toyrobot -i ./resources/test1.txt`
 `python -m toyrobot.app -i <path-to-input-file>`
 
 Example: `python -m toyrobot.app -i ./resources/test1.txt`
+
+### Extended Usage Info
+
+```shell
+
+usage: toyrobot [-h] -i INPUT [-x SIZEX] [-y SIZEY]
+
+Run Toy models Simulation
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        file consisting of models movement commands
+  -x SIZEX, --sizeX SIZEX
+                        dimension of tabletop
+  -y SIZEY, --sizeY SIZEY
+                        dimension of tabletop
+
+```
   
 
 
