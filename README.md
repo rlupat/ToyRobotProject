@@ -11,6 +11,8 @@ The robot is free to roam around the surface of the table, but will be prevented
 Any movement that would result in the robot falling from the table will be ignored, 
 however further valid movement commands will still be allowed.
 
+![TableTop Diagram](docs/diagram/tabletop.drawio.png)
+
 ### Valid Commands
 
 The console applications can read in commands in the following form:
