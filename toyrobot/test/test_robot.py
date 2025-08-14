@@ -5,8 +5,8 @@ from toyrobot.models.orientation import Orientation
 
 @pytest.fixture
 def my_robot():
+    # Robot Initial Position and Orientation
     return Robot(2, 2, "NORTH")
-
 
 class TestRobot:
     def test_move(self, my_robot):
