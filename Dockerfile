@@ -1,4 +1,4 @@
-FROM python:3.8.2
+FROM python:3.13.2
 LABEL maintainer="Richard Lupat"
 
 WORKDIR /toyrobot
